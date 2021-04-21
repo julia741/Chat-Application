@@ -46,9 +46,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/pink2"
-        app:tabSelectedTextColor="@color/pink2"
-        app:tabIndicatorColor="@color/pink2"
-        app:tabTextColor="@color/pink2"/>
+        app:tabSelectedTextColor="@color/white"
+        app:tabIndicatorColor="@color/pink"
+        app:tabTextColor="@color/white"/>
 
     <androidx.viewpager.widget.ViewPager
 android:background="@color/white"
