@@ -3,6 +3,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:id="@+id/toolbar"
-    android:background="@color/pink">
+    android:background="@color/pink"
+    android:theme="@style/Base.CardView"
+    android:popupTheme="@style/TextAppearance.AppCompat.Widget.PopupMenu.Small">
 
 </androidx.appcompat.widget.Toolbar>
