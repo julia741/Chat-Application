@@ -1,57 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     tools:context=".MainActivity"
     tools:ignore="ExtraText,MissingClass">
 
-    <android.support.design.widget.AppBarLayout
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"/>
 
-        <androidx.support.v7.widget.Toolbar
+
+
+
+        <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorPrimaryDark"
-            android:theme="@style/Base.CardView"
-            android:popupTheme="@style/TextAppearance.AppCompat.Widget.PopupMenu.Small">
+            android:background="@color/pink2"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:popupTheme="@style/MenuStyle" >
 
-    <de.hdodenhof.circleimageview.CircleImageView
+           <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:id="@+id/profile_image"/>
-    <TextView
+            <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/username"
         android:layout_marginLeft="25dp"
         android:text="username"
-        android:textColor="@color/black"
+        android:textColor="#fff"
         android:textStyle="bold"
+                android:textSize="18sp"
         android:layout_marginStart="25dp" />
-        </androidx.support.v7.widget.Toolbar>
-    </android.support.design.widget.AppBarLayout>
 
-    <android.support.design.widget.TableLayout
+        </androidx.appcompat.widget.Toolbar>
+
+    <com.google.android.material.tabs.TabLayout
         android:id="@+id/tab_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimaryDark"
-        app:tabSelectedTextColor="@color/colorPrimaryDark"
-        app:tabIndicatorColor="@color/colorPrimaryDark"
-        app:tabTextColor="@color/colorPrimaryDark"/>
+        android:background="@color/pink2"
+        app:tabSelectedTextColor="@color/pink2"
+        app:tabIndicatorColor="@color/pink2"
+        app:tabTextColor="@color/pink2"/>
 
-    <android.support.v4.view.ViewPager
+    <androidx.viewpager.widget.ViewPager
+android:background="@color/white"
         android:id="@+id/view_pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior">
-
-    </android.support.v4.view.ViewPager>
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
 
 
 </LinearLayout>

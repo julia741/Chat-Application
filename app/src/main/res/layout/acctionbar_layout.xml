@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:id="@+id/toolbar"
     android:background="@color/pink"
-    android:theme="@style/Base.CardView"
-    android:popupTheme="@style/TextAppearance.AppCompat.Widget.PopupMenu.Small">
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    android:popupTheme="@style/MenuStyle">
 
 </androidx.appcompat.widget.Toolbar>

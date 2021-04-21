@@ -25,6 +25,8 @@ import org.w3c.dom.Text;
 
 import java.util.HashMap;
 
+import Model.User;
+
 public class RegisterActivity extends AppCompatActivity {
 
     MaterialEditText username, email, password;
@@ -84,11 +86,12 @@ getSupportActionBar().setDisplayHomeAsUpEnabled(true);
                             hashMap.put("username", username);
                             hashMap.put("imageURL", "default");
 
+
                             reference.setValue(hashMap).addOnCompleteListener(new OnCompleteListener<Void>() {
                                 @Override
                                 public void onComplete(@NonNull Task<Void> task) {
                                     if (task.isSuccessful()) {
-                                        Intent intent = new Intent(RegisterActivity.this, MainActivity.class);
+                                        Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
                                         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                                         startActivity(intent);
                                         finish();
