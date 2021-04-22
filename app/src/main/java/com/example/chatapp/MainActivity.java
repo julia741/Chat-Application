@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
                 User user = dataSnapshot.getValue(User.class);
                 username.setText(user.getUsername());
                 if(user.getImageURL().equals("default")){
-                    profile_image.setImageResource(R.mipmap.ic_launcher);
+                    profile_image.setImageResource(R.drawable.user_icon);
                 } else{
                     Glide.with(MainActivity.this).load(user.getImageURL()).into(profile_image);
 
@@ -83,8 +83,8 @@ public class MainActivity extends AppCompatActivity {
         ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager());
 
 
-        viewPagerAdapter.addFragment(new ChatsFragment(), "Chats");
-        viewPagerAdapter.addFragment(new UsersFragment(), "Users");
+        viewPagerAdapter.addFragment(new ChatsFragment(), "Rozmowy");
+        viewPagerAdapter.addFragment(new UsersFragment(), "Użytkownicy");
 
         viewPager.setAdapter(viewPagerAdapter);
 
