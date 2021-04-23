@@ -55,7 +55,7 @@ public class LoginActivity extends AppCompatActivity {
                             .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                                 @Override
                                 public void onComplete(@NonNull Task<AuthResult> task) {
-                                    if (task.isSuccessful()){
+                                    if (!task.isSuccessful()){
 
 
                                         Intent intent = new Intent(LoginActivity.this, MainActivity.class);
