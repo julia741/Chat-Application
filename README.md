@@ -42,6 +42,10 @@ Buttony przekierowują na strony:Logowanie,rejestracja:
 Formularz rejestracji sprawdza, czy email ma odpowiedni format
 a hasło składa się z min. 6 znaków. Po pomyslnej rejestracji, aplikacja przekierowuje nas na stronę logowania.
 
+![logdontwork](https://user-i![logdontwork](https://user-images.githubusercontent.com/73189357/115952734-08af3480-a4e8-11eb-9290-1bf7c7b84911.png)
+Zalogowac się może tylko zarejestrowany użytkownik.
+
+
 ![users](https://user-images.githubusercontent.com/73189357/115951793-fb437b80-a4e2-11eb-8ceb-cecf4b6134a1.png)
 AcctionBar pozwala przełączać się między rozmowami a listą użytkowników.
 Lista użytkowników to lista zarejestrowanych użytkowników. Wyswietla on także nazwę aktualnie zalogowanego użytkownika, avatar, który ustawiony jest na domyślny. Po kliknięciu w trzykropek pojawia się opcja "Logout", która pozwala na wylogowanie oraz powrót do strony startowej.
