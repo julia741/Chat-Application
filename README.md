@@ -7,6 +7,7 @@ Rejestracja oraz logowanie,
 Przesyłanie wiadomości między użytkownikami,
 Wyświetlanie listy zarejestrowanych użytkowników,
 Wyświetlanie wiadomosci.
+Walidacja (hasło,email, błąd wysyłania pustej wiadomości)
 
 
 Technologie:
