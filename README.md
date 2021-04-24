@@ -37,5 +37,8 @@ Buttony przekierowują na strony:Logowanie,rejestracja:
 ![Register](https://user-images.githubusercontent.com/73189357/115951663-2da0a900-a4e2-11eb-8d7b-95f50b7ac157.png)
 
 
+![walidacja](https://user-images.githubusercontent.com/73189357/115951775-dc44e980-a4e2-11eb-930b-ff68ae10fccb.png)
+Formularz rejestracji sprawdza, czy email ma odpowiedni format, a hasło składa się z min. 6 znaków.
+
 
 
