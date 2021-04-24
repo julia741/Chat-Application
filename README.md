@@ -51,6 +51,7 @@ Zalogowac się może tylko zarejestrowany użytkownik.
 AcctionBar pozwala przełączać się między rozmowami a listą użytkowników.
 Lista użytkowników to lista zarejestrowanych użytkowników. Wyswietla on także nazwę aktualnie zalogowanego użytkownika, avatar, który ustawiony jest na domyślny. Po kliknięciu w trzykropek pojawia się opcja "Logout", która pozwala na wylogowanie oraz powrót do strony startowej.
 
-![messages](https://user-images.githubusercontent.com/73189357/115951849-39409f80-a4e3-11eb-9da7-157a274e00a9.png)
-Po kliknięciu w danego użytkownika wyświetla się widok chatu.
+![mess](https://user-images.githubusercontent.com/73189357/115954321-998a0e00-a4f0-11eb-80fb-005cf333983d.png)
+
+Po kliknięciu na nazwę danego użytkownika wyświetla się widok chatu.Wiadomości zapisują się w bazie danych.
 
