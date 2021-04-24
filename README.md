@@ -1,4 +1,4 @@
-![messages](https://user-images.githubusercontent.com/73189357/115951831-2cbc4700-a4e3-11eb-9c29-8fafeb44414f.png)
+
 Basic Chat Application with firebase
 
 
