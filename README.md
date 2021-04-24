@@ -13,5 +13,5 @@ Walidacja (hasło,email, błąd wysyłania pustej wiadomości)
 Technologie:
 Firebase database, 
 Firebase authentication 
-![image](drawable/Login.png)
+![image](drawable-v24/Login.png)
 ![image](drawable/Register.png)
