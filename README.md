@@ -38,14 +38,14 @@ Buttony przekierowują na strony:Logowanie,rejestracja:
 ![Register](https://user-images.githubusercontent.com/73189357/115951663-2da0a900-a4e2-11eb-8d7b-95f50b7ac157.png)
 
 Formularz rejestracji sprawdza, czy email ma odpowiedni format
-a hasło składa się z min. 6 znaków.
+a hasło składa się z min. 6 znaków. Po pomyslnej rejestracji, aplikacja przekierowuje nas na stronę logowania.
 ![walidacja](https://user-images.githubusercontent.com/73189357/115951775-dc44e980-a4e2-11eb-930b-ff68ae10fccb.png)
 
 
 
 ![users](https://user-images.githubusercontent.com/73189357/115951793-fb437b80-a4e2-11eb-8ceb-cecf4b6134a1.png)
 AcctionBar pozwala przełączać się między rozmowami a listą użytkowników.
-Lista użytkowników to lista zarejestrowanych użytkowników.
+Lista użytkowników to lista zarejestrowanych użytkowników. Wyswietla on także nazwę aktualnie zalogowanego użytkownika, avatar, który ustawiony jest na domyślny. Po kliknięciu w trzykropek pojawia się opcja "Logout", która pozwala na wylogowanie oraz powrót do strony startowej.
 
 ![messages](https://user-images.githubusercontent.com/73189357/115951849-39409f80-a4e3-11eb-9da7-157a274e00a9.png)
 Po kliknięciu w danego użytkownika wyświetla się widok chatu.
