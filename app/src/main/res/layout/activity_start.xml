@@ -9,24 +9,7 @@
     >
 
 
-    <TextView
 
-        android:layout_width="282dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="72dp"
-        android:layout_marginLeft="72dp"
-        android:layout_marginEnd="57dp"
-        android:layout_marginRight="57dp"
-        android:layout_marginBottom="351dp"
-        android:text="    CHAT APP"
-        android:textStyle="italic"
-        android:textColor="@color/black"
-        android:textSize="40sp" />
 
     <ImageView
         android:id="@+id/imageView"

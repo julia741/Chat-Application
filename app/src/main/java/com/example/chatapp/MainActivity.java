@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
                 User user = dataSnapshot.getValue(User.class);
                 username.setText(user.getUsername());
                 if(user.getImageURL().equals("default")){
-                    profile_image.setImageResource(R.drawable.user_icon);
+                    profile_image.setImageResource(R.drawable.avatar);
                 } else{
                     Glide.with(MainActivity.this).load(user.getImageURL()).into(profile_image);
 
@@ -106,8 +106,7 @@ public class MainActivity extends AppCompatActivity {
 
             case R.id.logout:
                 FirebaseAuth.getInstance().signOut();
-                startActivity(new Intent(MainActivity.this, StartActivity.class));
-                finish();
+                startActivity(new Intent(MainActivity.this, StartActivity.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
                 return true;
 
         }
