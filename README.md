@@ -14,3 +14,4 @@ Technologie:
 Firebase database, 
 Firebase authentication 
 ![image](drawable/Login.png)
+![image](drawable/Register.png)
