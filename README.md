@@ -19,8 +19,8 @@ Firebase authentication
 ![image](https://user-images.githubusercontent.com/73189357/115951623-f3cfa280-a4e1-11eb-9061-940df5a7db73.png)
 
 Buttony przekierowują na strony:Logowanie,rejestracja.
-![image](https://user-images.githubusercontent.com/73189357/115951490-4e1c3380-a4e1-11eb-92ad-fef4104eb57f.png)
-![image](https://user-images.githubusercontent.com/73189357/115951611-e3b7c300-a4e1-11eb-9bf9-6ae01d3f478c.png)
+
+![Login](https://user-images.githubusercontent.com/73189357/115951652-1c579c80-a4e2-11eb-990c-eefd433f81ae.png)
 
 
 
