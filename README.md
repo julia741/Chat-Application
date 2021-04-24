@@ -38,7 +38,10 @@ Buttony przekierowują na strony:Logowanie,rejestracja:
 
 
 ![walidacja](https://user-images.githubusercontent.com/73189357/115951775-dc44e980-a4e2-11eb-930b-ff68ae10fccb.png)
-Formularz rejestracji sprawdza, czy email ma odpowiedni format, a hasło składa się z min. 6 znaków.
+Formularz rejestracji sprawdza, czy email ma odpowiedni format,
+a hasło składa się z min. 6 znaków.
 
 
-
+![users](https://user-images.githubusercontent.com/73189357/115951793-fb437b80-a4e2-11eb-8ceb-cecf4b6134a1.png)
+AcctionBar pozwala przełączać się między rozmowami a listą użytkowników.
+Lista użytkowników to lista zarejestrowanych użytkowników.
