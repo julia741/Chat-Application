@@ -2,6 +2,9 @@ package com.example.chatapp;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
@@ -26,6 +29,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.zip.Inflater;
 
 import Adapter.MessageAdapter;
 import Model.Chat;
@@ -49,6 +53,8 @@ public class MessageActivity extends AppCompatActivity {
     RecyclerView recyclerView;
 
     Intent intent;
+    private Inflater inflater;
+    private Object ViewGroup;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,12 +67,18 @@ public class MessageActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         toolbar.setNavigationOnClickListener(v -> finish());
 
-        recyclerView = findViewById(R.id.recycler_view);
-        recyclerView.setHasFixedSize(true);
+
+
+
+
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getApplicationContext());
         linearLayoutManager.setStackFromEnd(true);
-        recyclerView.setLayoutManager(linearLayoutManager);
 
+
+
+           RecyclerView recyclerView = findViewById(R.id.recyclerView);
+            recyclerView.setHasFixedSize(true);
+        recyclerView.setLayoutManager(linearLayoutManager);
 
         profile_image = findViewById(R.id.profile_image);
         username = findViewById(R.id.username);
@@ -140,10 +152,13 @@ readMessages(fuser.getUid(), userid, user.getImageURL());
                             chat.getReceiver().equals(userid) && chat.getSender().equals(myid)) {
                         mChat.add(chat);
                     }
+
                     messageAdapter = new MessageAdapter(MessageActivity.this, mChat, imageurl);
                     recyclerView.setAdapter(messageAdapter);
                 }
             }
+
+
 
                 @Override
                 public void onCancelled (@NonNull DatabaseError error){
