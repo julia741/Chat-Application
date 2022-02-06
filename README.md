@@ -17,16 +17,9 @@ Firebase database,
 Firebase authentication 
 
 //////BAZA DANYCH FIREBASE////
-![bazadanych](https://user-images.githubusercontent.com/73189357/115951701-6c366380-a4e2-11eb-8b28-b55ae53c7155.png)
+
 Users – Zarejestrowani użytkownicy
 Chats – Wysłane wiadomości(nadawca,odbiorca)
-
-![auth](https://user-images.githubusercontent.com/73189357/115951727-a142b600-a4e2-11eb-8588-84a644796344.png)
-////////APLIKACJA//////////
-
-
-
-
 
 ///////STRONA STARTOWA///////
 ![startactivity](https://user-images.githubusercontent.com/73189357/115951670-38f3d480-a4e2-11eb-93cc-0423bc9ac57a.png)
